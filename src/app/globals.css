@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+:root {
+  /* Neutral canvas — mostly desaturated, per Nitec */
+  --bg-canvas: #F6F5F2;         /* warm off-white, not pure white */
+  --bg-canvas-alt: #EFEDE7;
+  --ink-900: #14140F;           /* near-black, not pure black */
+  --ink-600: #5B5A52;
+  --ink-300: #A7A499;
+
+  /* ONE confident accent — pick per brand, don't use both */
+  --accent-lime: #D7FE3E;       /* Nitec-style CTA */
+  --accent-coral: #FF5A3C;      /* BeliBeli-style alert/sale */
+
+  --surface-card: #FFFFFF;
+  --border-hairline: rgba(20, 20, 15, 0.08);
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-pill: 999px;
+}
+
+/* Global overrides for HTML/Body smooth scroll */
+html {
+  scroll-behavior: auto; /* lenis handles this */
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--ink-900);
+  overflow-x: hidden;
+}
+
+/* Custom theme mapping for Tailwind CSS v4 */
+@theme {
+  --font-display: var(--font-bricolage), sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+
+  --color-bg-canvas: var(--bg-canvas);
+  --color-bg-canvas-alt: var(--bg-canvas-alt);
+  --color-ink-900: var(--ink-900);
+  --color-ink-600: var(--ink-600);
+  --color-ink-300: var(--ink-300);
+  --color-accent-lime: var(--accent-lime);
+  --color-accent-coral: var(--accent-coral);
+  --color-surface-card: var(--surface-card);
+  --color-border-hairline: var(--border-hairline);
+
+  --radius-lg: var(--radius-lg);
+  --radius-md: var(--radius-md);
+  --radius-pill: var(--radius-pill);
+}
+
+/* Custom utilities & components */
+@layer utilities {
+  .text-grotesk {
+    font-family: var(--font-display);
+  }
+  .text-inter {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Keyframes */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Lenis CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overflow: clip;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Custom Outlines & Animations */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--ink-900);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(2deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes brand-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.3333%); }
+}
+
+.animate-brand-marquee {
+  animation: brand-marquee 20s linear infinite;
+}
+
+.hover-pause-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 25s linear infinite;
+}
+
+/* Noise texture overlay */
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}

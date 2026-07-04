@@ -1,0 +1,3738 @@
+[
+  {
+    "id": "p_1",
+    "slug": "studio-anc-headphones",
+    "name": "Studio ANC Headphones",
+    "category": "Electronics",
+    "price": 299,
+    "compareAtPrice": 389,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "High-fidelity audio with hybrid active noise cancellation, premium memory foam earcups, and 40-hour battery life.",
+    "specs": {
+      "Brand": "AetherAudio",
+      "Subcategory": "Audio",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_1_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_1_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_1_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_1_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_1_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 76,
+    "tags": [
+      "electronics",
+      "audio",
+      "aetheraudio"
+    ]
+  },
+  {
+    "id": "p_2",
+    "slug": "chronos-smartwatch-x",
+    "name": "Chronos Smartwatch X",
+    "category": "Electronics",
+    "price": 199,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Advanced fitness tracking, AMOLED display, ECG monitor, and blood oxygen tracking in a sleek titanium shell.",
+    "specs": {
+      "Brand": "Chronos",
+      "Subcategory": "Wearables",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_2_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_2_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_2_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_2_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_2_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.7,
+    "reviewCount": 169,
+    "tags": [
+      "electronics",
+      "wearables",
+      "chronos"
+    ]
+  },
+  {
+    "id": "p_3",
+    "slug": "vortex-mechanical-keyboard",
+    "name": "Vortex Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 149,
+    "images": [
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Hot-swappable switches, PBT keycaps, per-key RGB backlighting, and a solid CNC aluminum frame.",
+    "specs": {
+      "Brand": "NovaCompute",
+      "Subcategory": "Computers",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_3_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_3_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_3_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_3_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_3_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.3,
+    "reviewCount": 140,
+    "tags": [
+      "electronics",
+      "computers",
+      "novacompute"
+    ]
+  },
+  {
+    "id": "p_4",
+    "slug": "nova-book-14-pro",
+    "name": "Nova Book 14 Pro",
+    "category": "Electronics",
+    "price": 1299,
+    "compareAtPrice": 1689,
+    "images": [
+      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Powerful processing meets stunning 120Hz OLED display. The ultimate thin-and-light laptop for creators.",
+    "specs": {
+      "Brand": "VortexHome",
+      "Subcategory": "Smart Home",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_4_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_4_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_4_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_4_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_4_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.6,
+    "reviewCount": 113,
+    "tags": [
+      "electronics",
+      "smart home",
+      "vortexhome"
+    ]
+  },
+  {
+    "id": "p_5",
+    "slug": "beam-wireless-soundbar",
+    "name": "Beam Wireless Soundbar",
+    "category": "Electronics",
+    "price": 249,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Immersive Dolby Atmos sound, built-in voice assistants, and seamless multi-room audio synchronization.",
+    "specs": {
+      "Brand": "AetherAudio",
+      "Subcategory": "Audio",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_5_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_5_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_5_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_5_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_5_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.5,
+    "reviewCount": 179,
+    "tags": [
+      "electronics",
+      "audio",
+      "aetheraudio"
+    ]
+  },
+  {
+    "id": "p_6",
+    "slug": "aura-smart-ambient-light",
+    "name": "Aura Smart Ambient Light",
+    "category": "Electronics",
+    "price": 79,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Syncs with your music or screen colors to create custom dynamic atmospheres in any space.",
+    "specs": {
+      "Brand": "Chronos",
+      "Subcategory": "Wearables",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_6_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_6_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_6_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_6_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_6_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.5,
+    "reviewCount": 163,
+    "tags": [
+      "electronics",
+      "wearables",
+      "chronos"
+    ]
+  },
+  {
+    "id": "p_7",
+    "slug": "eclipse-wireless-charger-3-in-1",
+    "name": "Eclipse Wireless Charger 3-in-1",
+    "category": "Electronics",
+    "price": 89,
+    "compareAtPrice": 116,
+    "images": [
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Charges your phone, watch, and earbuds simultaneously with fast magnetic alignment.",
+    "specs": {
+      "Brand": "NovaCompute",
+      "Subcategory": "Computers",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_7_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_7_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_7_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_7_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_7_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.3,
+    "reviewCount": 119,
+    "tags": [
+      "electronics",
+      "computers",
+      "novacompute"
+    ]
+  },
+  {
+    "id": "p_8",
+    "slug": "apex-anc-earbuds",
+    "name": "Apex ANC Earbuds",
+    "category": "Electronics",
+    "price": 179,
+    "images": [
+      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "True wireless earbuds with custom dynamic drivers, transparency mode, and IPX7 sweat resistance.",
+    "specs": {
+      "Brand": "VortexHome",
+      "Subcategory": "Smart Home",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_8_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_8_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_8_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_8_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_8_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 50,
+    "tags": [
+      "electronics",
+      "smart home",
+      "vortexhome"
+    ]
+  },
+  {
+    "id": "p_9",
+    "slug": "vellum-oversized-trench-coat",
+    "name": "Vellum Oversized Trench Coat",
+    "category": "Fashion",
+    "price": 220,
+    "compareAtPrice": 286,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Water-resistant gabardine cotton with signature double-breasted closure and adjustable waist belt.",
+    "specs": {
+      "Brand": "Arcane Studio",
+      "Subcategory": "Menswear",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_9_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_9_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_9_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_9_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_9_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.8,
+    "reviewCount": 181,
+    "tags": [
+      "fashion",
+      "menswear",
+      "arcane studio"
+    ]
+  },
+  {
+    "id": "p_10",
+    "slug": "arcane-linen-blazer",
+    "name": "Arcane Linen Blazer",
+    "category": "Fashion",
+    "price": 160,
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Breathable European linen construction. Relaxed fit suitable for smart-casual summer styles.",
+    "specs": {
+      "Brand": "Vellum",
+      "Subcategory": "Womenswear",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_10_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_10_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_10_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_10_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_10_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.3,
+    "reviewCount": 110,
+    "tags": [
+      "fashion",
+      "womenswear",
+      "vellum"
+    ]
+  },
+  {
+    "id": "p_11",
+    "slug": "tread-co-chelsea-boots",
+    "name": "Tread Co. Chelsea Boots",
+    "category": "Fashion",
+    "price": 180,
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Handcrafted premium leather with elastic side panels, Goodyear welt construction, and durable rubber outsoles.",
+    "specs": {
+      "Brand": "Sartorialist",
+      "Subcategory": "Accessories",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_11_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_11_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_11_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_11_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_11_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 32,
+    "tags": [
+      "fashion",
+      "accessories",
+      "sartorialist"
+    ]
+  },
+  {
+    "id": "p_12",
+    "slug": "minimalist-leather-tote",
+    "name": "Minimalist Leather Tote",
+    "category": "Fashion",
+    "price": 140,
+    "compareAtPrice": 182,
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Full-grain Italian leather bag with internal laptop sleeve and magnetic top closure.",
+    "specs": {
+      "Brand": "Tread Co.",
+      "Subcategory": "Footwear",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_12_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_12_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_12_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_12_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_12_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.3,
+    "reviewCount": 153,
+    "tags": [
+      "fashion",
+      "footwear",
+      "tread co."
+    ]
+  },
+  {
+    "id": "p_13",
+    "slug": "sartorialist-knit-polo",
+    "name": "Sartorialist Knit Polo",
+    "category": "Fashion",
+    "price": 85,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Fine-gauge merino wool polo knit with a classic flat collar and three-button placket.",
+    "specs": {
+      "Brand": "Arcane Studio",
+      "Subcategory": "Menswear",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_13_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_13_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_13_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_13_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_13_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 130,
+    "tags": [
+      "fashion",
+      "menswear",
+      "arcane studio"
+    ]
+  },
+  {
+    "id": "p_14",
+    "slug": "solstice-acetate-sunglasses",
+    "name": "Solstice Acetate Sunglasses",
+    "category": "Fashion",
+    "price": 120,
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Hand-polished bio-acetate frames paired with polarized UVA/UVB protection lenses.",
+    "specs": {
+      "Brand": "Vellum",
+      "Subcategory": "Womenswear",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_14_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_14_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_14_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_14_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_14_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.5,
+    "reviewCount": 232,
+    "tags": [
+      "fashion",
+      "womenswear",
+      "vellum"
+    ]
+  },
+  {
+    "id": "p_15",
+    "slug": "raw-denim-slim-jeans",
+    "name": "Raw Denim Slim Jeans",
+    "category": "Fashion",
+    "price": 110,
+    "compareAtPrice": 143,
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "14oz Japanese selvedge denim that breaks in uniquely over time for a customized fit.",
+    "specs": {
+      "Brand": "Sartorialist",
+      "Subcategory": "Accessories",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_15_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_15_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_15_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_15_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_15_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 173,
+    "tags": [
+      "fashion",
+      "accessories",
+      "sartorialist"
+    ]
+  },
+  {
+    "id": "p_16",
+    "slug": "vellum-merino-wool-sweater",
+    "name": "Vellum Merino Wool Sweater",
+    "category": "Fashion",
+    "price": 130,
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Ultra-soft, temperature-regulating merino wool sweater with ribbed cuffs and hem.",
+    "specs": {
+      "Brand": "Tread Co.",
+      "Subcategory": "Footwear",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_16_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_16_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_16_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_16_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_16_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.6,
+    "reviewCount": 89,
+    "tags": [
+      "fashion",
+      "footwear",
+      "tread co."
+    ]
+  },
+  {
+    "id": "p_17",
+    "slug": "hydra-glow-peptide-serum",
+    "name": "Hydra-Glow Peptide Serum",
+    "category": "Beauty",
+    "price": 58,
+    "compareAtPrice": 75,
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Plumping formula with multi-molecular hyaluronic acid, peptides, and niacinamide for ultimate radiance.",
+    "specs": {
+      "Brand": "Glow Lab",
+      "Subcategory": "Skincare",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_17_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_17_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_17_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_17_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_17_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.2,
+    "reviewCount": 177,
+    "tags": [
+      "beauty",
+      "skincare",
+      "glow lab"
+    ]
+  },
+  {
+    "id": "p_18",
+    "slug": "iris-noir-eau-de-parfum",
+    "name": "Iris Noir Eau de Parfum",
+    "category": "Beauty",
+    "price": 110,
+    "images": [
+      "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "A rich scent combining midnight iris, warm cedarwood, and delicate vanilla extracts.",
+    "specs": {
+      "Brand": "Velvet Iris",
+      "Subcategory": "Makeup",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_18_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_18_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_18_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_18_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_18_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.9,
+    "reviewCount": 188,
+    "tags": [
+      "beauty",
+      "makeup",
+      "velvet iris"
+    ]
+  },
+  {
+    "id": "p_19",
+    "slug": "flora-botanical-cleansing-oil",
+    "name": "Flora Botanical Cleansing Oil",
+    "category": "Beauty",
+    "price": 34,
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Gentle oil-to-milk cleanser infused with sweet almond, jojoba, and vitamin E to dissolve makeup.",
+    "specs": {
+      "Brand": "Flora",
+      "Subcategory": "Fragrance",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_19_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_19_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_19_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_19_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_19_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.6,
+    "reviewCount": 231,
+    "tags": [
+      "beauty",
+      "fragrance",
+      "flora"
+    ]
+  },
+  {
+    "id": "p_20",
+    "slug": "velvet-skin-tint-spf-30",
+    "name": "Velvet Skin Tint SPF 30",
+    "category": "Beauty",
+    "price": 42,
+    "compareAtPrice": 55,
+    "images": [
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Lightweight foundation offering sheer-to-medium coverage with mineral sun protection.",
+    "specs": {
+      "Brand": "Elixir",
+      "Subcategory": "Haircare",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_20_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_20_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_20_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_20_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_20_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4,
+    "reviewCount": 52,
+    "tags": [
+      "beauty",
+      "haircare",
+      "elixir"
+    ]
+  },
+  {
+    "id": "p_21",
+    "slug": "elixir-recovery-face-oil",
+    "name": "Elixir Recovery Face Oil",
+    "category": "Beauty",
+    "price": 65,
+    "images": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Rich blend of rosehip, squalane, and evening primrose oils to restore the skin barrier overnight.",
+    "specs": {
+      "Brand": "Glow Lab",
+      "Subcategory": "Skincare",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_21_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_21_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_21_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_21_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_21_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.9,
+    "reviewCount": 40,
+    "tags": [
+      "beauty",
+      "skincare",
+      "glow lab"
+    ]
+  },
+  {
+    "id": "p_22",
+    "slug": "silk-sleep-lip-mask",
+    "name": "Silk Sleep Lip Mask",
+    "category": "Beauty",
+    "price": 24,
+    "images": [
+      "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Nourishing lip treatment with shea butter and berry extracts for soft lips by morning.",
+    "specs": {
+      "Brand": "Velvet Iris",
+      "Subcategory": "Makeup",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_22_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_22_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_22_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_22_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_22_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 112,
+    "tags": [
+      "beauty",
+      "makeup",
+      "velvet iris"
+    ]
+  },
+  {
+    "id": "p_23",
+    "slug": "pro-caffeine-eye-cream",
+    "name": "Pro-Caffeine Eye Cream",
+    "category": "Beauty",
+    "price": 38,
+    "compareAtPrice": 49,
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "De-puffing formula with green tea extract and vitamin C to target dark circles and fine lines.",
+    "specs": {
+      "Brand": "Flora",
+      "Subcategory": "Fragrance",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_23_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_23_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_23_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_23_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_23_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.8,
+    "reviewCount": 182,
+    "tags": [
+      "beauty",
+      "fragrance",
+      "flora"
+    ]
+  },
+  {
+    "id": "p_24",
+    "slug": "mineral-shield-sunscreen-spf-50",
+    "name": "Mineral Shield Sunscreen SPF 50",
+    "category": "Beauty",
+    "price": 32,
+    "images": [
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Non-greasy, broad-spectrum mineral sunscreen that leaves zero white cast.",
+    "specs": {
+      "Brand": "Elixir",
+      "Subcategory": "Haircare",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_24_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_24_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_24_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_24_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_24_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 194,
+    "tags": [
+      "beauty",
+      "haircare",
+      "elixir"
+    ]
+  },
+  {
+    "id": "p_25",
+    "slug": "atelier-boucl-lounge-chair",
+    "name": "Atelier Bouclé Lounge Chair",
+    "category": "Home & Living",
+    "price": 499,
+    "compareAtPrice": 649,
+    "images": [
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Ergonomic statement chair upholstered in premium textured bouclé fabric with solid oak legs.",
+    "specs": {
+      "Brand": "Modura",
+      "Subcategory": "Furniture",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_25_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_25_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_25_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_25_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_25_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.8,
+    "reviewCount": 86,
+    "tags": [
+      "home & living",
+      "furniture",
+      "modura"
+    ]
+  },
+  {
+    "id": "p_26",
+    "slug": "sienna-ceramic-kettle",
+    "name": "Sienna Ceramic Kettle",
+    "category": "Home & Living",
+    "price": 95,
+    "images": [
+      "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Electric gooseneck kettle with precise temperature control and sleek matte ceramic body.",
+    "specs": {
+      "Brand": "Atelier Loft",
+      "Subcategory": "Decor",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_26_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_26_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_26_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_26_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_26_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.2,
+    "reviewCount": 42,
+    "tags": [
+      "home & living",
+      "decor",
+      "atelier loft"
+    ]
+  },
+  {
+    "id": "p_27",
+    "slug": "haven-organic-waffle-blanket",
+    "name": "Haven Organic Waffle Blanket",
+    "category": "Home & Living",
+    "price": 110,
+    "images": [
+      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Ultra-soft waffle knit made from 100% organic long-staple cotton.",
+    "specs": {
+      "Brand": "Sienna Kettle",
+      "Subcategory": "Kitchen",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_27_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_27_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_27_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_27_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_27_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 227,
+    "tags": [
+      "home & living",
+      "kitchen",
+      "sienna kettle"
+    ]
+  },
+  {
+    "id": "p_28",
+    "slug": "modura-brass-floor-lamp",
+    "name": "Modura Brass Floor Lamp",
+    "category": "Home & Living",
+    "price": 160,
+    "compareAtPrice": 208,
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Mid-century design with brushed brass finish, adjustable dome head, and marble base.",
+    "specs": {
+      "Brand": "Haven",
+      "Subcategory": "Bedding",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_28_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_28_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_28_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_28_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_28_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 105,
+    "tags": [
+      "home & living",
+      "bedding",
+      "haven"
+    ]
+  },
+  {
+    "id": "p_29",
+    "slug": "atelier-stoneware-dinner-set",
+    "name": "Atelier Stoneware Dinner Set",
+    "category": "Home & Living",
+    "price": 140,
+    "images": [
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "16-piece hand-glazed stoneware set, dishwasher and microwave safe.",
+    "specs": {
+      "Brand": "Modura",
+      "Subcategory": "Furniture",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_29_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_29_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_29_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_29_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_29_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.2,
+    "reviewCount": 170,
+    "tags": [
+      "home & living",
+      "furniture",
+      "modura"
+    ]
+  },
+  {
+    "id": "p_30",
+    "slug": "terrazzo-soy-wax-candle",
+    "name": "Terrazzo Soy Wax Candle",
+    "category": "Home & Living",
+    "price": 32,
+    "images": [
+      "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Hand-poured candle in a reusable terrazzo pot, scented with sandalwood and amber.",
+    "specs": {
+      "Brand": "Atelier Loft",
+      "Subcategory": "Decor",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_30_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_30_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_30_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_30_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_30_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4,
+    "reviewCount": 98,
+    "tags": [
+      "home & living",
+      "decor",
+      "atelier loft"
+    ]
+  },
+  {
+    "id": "p_31",
+    "slug": "haven-linen-bedding-set",
+    "name": "Haven Linen Bedding Set",
+    "category": "Home & Living",
+    "price": 220,
+    "compareAtPrice": 286,
+    "images": [
+      "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Made from premium French flax, pre-washed for exceptional softness and breathability.",
+    "specs": {
+      "Brand": "Sienna Kettle",
+      "Subcategory": "Kitchen",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_31_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_31_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_31_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_31_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_31_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.7,
+    "reviewCount": 66,
+    "tags": [
+      "home & living",
+      "kitchen",
+      "sienna kettle"
+    ]
+  },
+  {
+    "id": "p_32",
+    "slug": "modura-glass-carafe-set",
+    "name": "Modura Glass Carafe Set",
+    "category": "Home & Living",
+    "price": 48,
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Hand-blown glass carafe with two matching tumblers in a subtle smoke tint.",
+    "specs": {
+      "Brand": "Haven",
+      "Subcategory": "Bedding",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_32_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_32_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_32_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_32_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_32_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.8,
+    "reviewCount": 189,
+    "tags": [
+      "home & living",
+      "bedding",
+      "haven"
+    ]
+  },
+  {
+    "id": "p_33",
+    "slug": "apex-adjustable-dumbbells",
+    "name": "Apex Adjustable Dumbbells",
+    "category": "Sports",
+    "price": 329,
+    "compareAtPrice": 428,
+    "images": [
+      "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Space-saving weights adjusting from 5 to 52.5 lbs with a simple dial mechanism.",
+    "specs": {
+      "Brand": "Apex",
+      "Subcategory": "Fitness",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_33_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_33_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_33_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_33_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_33_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 169,
+    "tags": [
+      "sports",
+      "fitness",
+      "apex"
+    ]
+  },
+  {
+    "id": "p_34",
+    "slug": "terra-trail-hiking-pack-45l",
+    "name": "Terra Trail Hiking Pack 45L",
+    "category": "Sports",
+    "price": 145,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Lightweight, weather-resistant pack with ergonomic harness and integrated hydration sleeve.",
+    "specs": {
+      "Brand": "Terra Trail",
+      "Subcategory": "Outdoor",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_34_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_34_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_34_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_34_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_34_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 241,
+    "tags": [
+      "sports",
+      "outdoor",
+      "terra trail"
+    ]
+  },
+  {
+    "id": "p_35",
+    "slug": "kinetix-road-running-shoes",
+    "name": "Kinetix Road Running Shoes",
+    "category": "Sports",
+    "price": 130,
+    "images": [
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Responsive cushioning with breathable engineered mesh and high-traction carbon rubber sole.",
+    "specs": {
+      "Brand": "Kinetix",
+      "Subcategory": "Apparel",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_35_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_35_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_35_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_35_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_35_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 112,
+    "tags": [
+      "sports",
+      "apparel",
+      "kinetix"
+    ]
+  },
+  {
+    "id": "p_36",
+    "slug": "vanguard-hydro-flask-32oz",
+    "name": "Vanguard Hydro Flask 32oz",
+    "category": "Sports",
+    "price": 42,
+    "compareAtPrice": 55,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Double-wall vacuum insulation keeps drinks cold for 24 hours or hot for 12.",
+    "specs": {
+      "Brand": "Vanguard Sport",
+      "Subcategory": "Gear",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_36_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_36_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_36_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_36_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_36_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.9,
+    "reviewCount": 24,
+    "tags": [
+      "sports",
+      "gear",
+      "vanguard sport"
+    ]
+  },
+  {
+    "id": "p_37",
+    "slug": "terra-trail-pop-up-tent-2p",
+    "name": "Terra Trail Pop-up Tent 2P",
+    "category": "Sports",
+    "price": 180,
+    "images": [
+      "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Assembles in under a minute. Weather-resistant rainfly, spacious interior, and dual doors.",
+    "specs": {
+      "Brand": "Apex",
+      "Subcategory": "Fitness",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_37_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_37_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_37_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_37_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_37_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.3,
+    "reviewCount": 68,
+    "tags": [
+      "sports",
+      "fitness",
+      "apex"
+    ]
+  },
+  {
+    "id": "p_38",
+    "slug": "kinetix-cork-yoga-mat",
+    "name": "Kinetix Cork Yoga Mat",
+    "category": "Sports",
+    "price": 65,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Non-slip natural cork surface with cushioned TPE backing for joint support.",
+    "specs": {
+      "Brand": "Terra Trail",
+      "Subcategory": "Outdoor",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_38_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_38_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_38_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_38_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_38_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.7,
+    "reviewCount": 60,
+    "tags": [
+      "sports",
+      "outdoor",
+      "terra trail"
+    ]
+  },
+  {
+    "id": "p_39",
+    "slug": "vanguard-running-windbreaker",
+    "name": "Vanguard Running Windbreaker",
+    "category": "Sports",
+    "price": 85,
+    "compareAtPrice": 111,
+    "images": [
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Ultralight, windproof, and water-repellent jacket with reflective detailing for night runs.",
+    "specs": {
+      "Brand": "Kinetix",
+      "Subcategory": "Apparel",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_39_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_39_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_39_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_39_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_39_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 126,
+    "tags": [
+      "sports",
+      "apparel",
+      "kinetix"
+    ]
+  },
+  {
+    "id": "p_40",
+    "slug": "apex-massage-gun-pro",
+    "name": "Apex Massage Gun Pro",
+    "category": "Sports",
+    "price": 199,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Percussive therapy device with 5 speed levels and 6 interchangeable attachments.",
+    "specs": {
+      "Brand": "Vanguard Sport",
+      "Subcategory": "Gear",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_40_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_40_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_40_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_40_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_40_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 23,
+    "tags": [
+      "sports",
+      "gear",
+      "vanguard sport"
+    ]
+  },
+  {
+    "id": "p_41",
+    "slug": "aromatic-single-origin-coffee-beans",
+    "name": "Aromatic Single-Origin Coffee Beans",
+    "category": "Groceries",
+    "price": 18,
+    "compareAtPrice": 23,
+    "images": [
+      "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Ethically sourced, medium roast beans from Ethiopian highlands. Notes of citrus and floral jasmine.",
+    "specs": {
+      "Brand": "Nectar",
+      "Subcategory": "Beverages",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_41_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_41_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_41_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_41_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_41_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.8,
+    "reviewCount": 134,
+    "tags": [
+      "groceries",
+      "beverages",
+      "nectar"
+    ]
+  },
+  {
+    "id": "p_42",
+    "slug": "artisanal-dark-chocolate-bar",
+    "name": "Artisanal Dark Chocolate Bar",
+    "category": "Groceries",
+    "price": 8,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "72% single-origin cacao from Ecuador, infused with sea salt crystals.",
+    "specs": {
+      "Brand": "Crisp Co.",
+      "Subcategory": "Snacks",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_42_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_42_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_42_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_42_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_42_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.2,
+    "reviewCount": 130,
+    "tags": [
+      "groceries",
+      "snacks",
+      "crisp co."
+    ]
+  },
+  {
+    "id": "p_43",
+    "slug": "cold-pressed-organic-olive-oil",
+    "name": "Cold-Pressed Organic Olive Oil",
+    "category": "Groceries",
+    "price": 24,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Extra virgin olive oil from early harvest olives in Crete. Rich, peppery finish.",
+    "specs": {
+      "Brand": "Savor",
+      "Subcategory": "Pantry",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_43_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_43_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_43_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_43_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_43_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.8,
+    "reviewCount": 134,
+    "tags": [
+      "groceries",
+      "pantry",
+      "savor"
+    ]
+  },
+  {
+    "id": "p_44",
+    "slug": "matcha-ceremonial-tea-powder",
+    "name": "Matcha Ceremonial Tea Powder",
+    "category": "Groceries",
+    "price": 28,
+    "compareAtPrice": 36,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Stone-ground Uji matcha with vibrant green color and smooth, sweet umami flavor.",
+    "specs": {
+      "Brand": "Pure Harvest",
+      "Subcategory": "Organic",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_44_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_44_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_44_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_44_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_44_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 143,
+    "tags": [
+      "groceries",
+      "organic",
+      "pure harvest"
+    ]
+  },
+  {
+    "id": "p_45",
+    "slug": "raw-wildflower-honey",
+    "name": "Raw Wildflower Honey",
+    "category": "Groceries",
+    "price": 12,
+    "images": [
+      "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Unfiltered, pure honey harvested from wildflower meadows.",
+    "specs": {
+      "Brand": "Nectar",
+      "Subcategory": "Beverages",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_45_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_45_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_45_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_45_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_45_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.9,
+    "reviewCount": 18,
+    "tags": [
+      "groceries",
+      "beverages",
+      "nectar"
+    ]
+  },
+  {
+    "id": "p_46",
+    "slug": "organic-herbal-infusions-gift-set",
+    "name": "Organic Herbal Infusions Gift Set",
+    "category": "Groceries",
+    "price": 22,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Assortment of chamomile, peppermint, hibiscus, and rooibos loose leaf teas.",
+    "specs": {
+      "Brand": "Crisp Co.",
+      "Subcategory": "Snacks",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_46_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_46_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_46_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_46_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_46_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.2,
+    "reviewCount": 221,
+    "tags": [
+      "groceries",
+      "snacks",
+      "crisp co."
+    ]
+  },
+  {
+    "id": "p_47",
+    "slug": "ancient-grains-granola",
+    "name": "Ancient Grains Granola",
+    "category": "Groceries",
+    "price": 9,
+    "compareAtPrice": 12,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Toasted oats, quinoa, chia, and pumpkin seeds sweetened with pure maple syrup.",
+    "specs": {
+      "Brand": "Savor",
+      "Subcategory": "Pantry",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_47_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_47_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_47_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_47_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_47_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.5,
+    "reviewCount": 217,
+    "tags": [
+      "groceries",
+      "pantry",
+      "savor"
+    ]
+  },
+  {
+    "id": "p_48",
+    "slug": "pure-maple-syrup-grade-a",
+    "name": "Pure Maple Syrup Grade A",
+    "category": "Groceries",
+    "price": 15,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "100% pure organic dark maple syrup harvested in Vermont.",
+    "specs": {
+      "Brand": "Pure Harvest",
+      "Subcategory": "Organic",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_48_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_48_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_48_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_48_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_48_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 15,
+    "tags": [
+      "groceries",
+      "organic",
+      "pure harvest"
+    ]
+  },
+  {
+    "id": "p_49",
+    "slug": "playbox-wooden-block-set",
+    "name": "Playbox Wooden Block Set",
+    "category": "Kids",
+    "price": 45,
+    "compareAtPrice": 59,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "50-piece set made from sustainable beechwood. Promotes fine motor skills and spatial awareness.",
+    "specs": {
+      "Brand": "Playbox",
+      "Subcategory": "Toys",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_49_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_49_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_49_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_49_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_49_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 17,
+    "tags": [
+      "kids",
+      "toys",
+      "playbox"
+    ]
+  },
+  {
+    "id": "p_50",
+    "slug": "tiny-thread-cotton-romper",
+    "name": "Tiny Thread Cotton Romper",
+    "category": "Kids",
+    "price": 28,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Organic ribbed cotton bodysuit with snap closures for easy dressing and changing.",
+    "specs": {
+      "Brand": "Tiny Thread",
+      "Subcategory": "Clothing",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_50_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_50_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_50_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_50_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_50_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.8,
+    "reviewCount": 198,
+    "tags": [
+      "kids",
+      "clothing",
+      "tiny thread"
+    ]
+  },
+  {
+    "id": "p_51",
+    "slug": "bright-mind-magnetic-tiles-100pc",
+    "name": "Bright Mind Magnetic Tiles 100pc",
+    "category": "Kids",
+    "price": 68,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "3D magnetic building blocks in vibrant colors. Encourages STEM learning and creativity.",
+    "specs": {
+      "Brand": "Stellar Kids",
+      "Subcategory": "Baby Gear",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_51_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_51_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_51_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_51_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_51_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.9,
+    "reviewCount": 113,
+    "tags": [
+      "kids",
+      "baby gear",
+      "stellar kids"
+    ]
+  },
+  {
+    "id": "p_52",
+    "slug": "stellar-kids-stroller-organizer",
+    "name": "Stellar Kids Stroller Organizer",
+    "category": "Kids",
+    "price": 35,
+    "compareAtPrice": 46,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Universal fit with insulated cup holders, main storage compartment, and zip-off wristlet.",
+    "specs": {
+      "Brand": "Bright Mind",
+      "Subcategory": "Education",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_52_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_52_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_52_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_52_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_52_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.5,
+    "reviewCount": 81,
+    "tags": [
+      "kids",
+      "education",
+      "bright mind"
+    ]
+  },
+  {
+    "id": "p_53",
+    "slug": "playbox-montessori-activity-cube",
+    "name": "Playbox Montessori Activity Cube",
+    "category": "Kids",
+    "price": 55,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "5-in-1 sensory toy featuring bead maze, shape sorter, gear spinners, and clock.",
+    "specs": {
+      "Brand": "Playbox",
+      "Subcategory": "Toys",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_53_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_53_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_53_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_53_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_53_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.3,
+    "reviewCount": 132,
+    "tags": [
+      "kids",
+      "toys",
+      "playbox"
+    ]
+  },
+  {
+    "id": "p_54",
+    "slug": "stellar-convertible-high-chair",
+    "name": "Stellar Convertible High Chair",
+    "category": "Kids",
+    "price": 160,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Modern wooden high chair that converts into a toddler chair as your child grows.",
+    "specs": {
+      "Brand": "Tiny Thread",
+      "Subcategory": "Clothing",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_54_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_54_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_54_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_54_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_54_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.7,
+    "reviewCount": 198,
+    "tags": [
+      "kids",
+      "clothing",
+      "tiny thread"
+    ]
+  },
+  {
+    "id": "p_55",
+    "slug": "tiny-thread-knitted-blanket",
+    "name": "Tiny Thread Knitted Blanket",
+    "category": "Kids",
+    "price": 42,
+    "compareAtPrice": 55,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Soft pointelle knit baby blanket made from organic cotton.",
+    "specs": {
+      "Brand": "Stellar Kids",
+      "Subcategory": "Baby Gear",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_55_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_55_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_55_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_55_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_55_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 43,
+    "tags": [
+      "kids",
+      "baby gear",
+      "stellar kids"
+    ]
+  },
+  {
+    "id": "p_56",
+    "slug": "bright-mind-wooden-balance-board",
+    "name": "Bright Mind Wooden Balance Board",
+    "category": "Kids",
+    "price": 79,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Multi-use curved board supporting balance, coordination, and imaginative play.",
+    "specs": {
+      "Brand": "Bright Mind",
+      "Subcategory": "Education",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_56_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_56_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_56_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_56_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_56_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.6,
+    "reviewCount": 84,
+    "tags": [
+      "kids",
+      "education",
+      "bright mind"
+    ]
+  },
+  {
+    "id": "p_57",
+    "slug": "torque-tech-portable-tire-inflator",
+    "name": "Torque Tech Portable Tire Inflator",
+    "category": "Auto",
+    "price": 59,
+    "compareAtPrice": 77,
+    "images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Digital pressure preset, auto shut-off, and built-in LED flashlight. Recharges via USB.",
+    "specs": {
+      "Brand": "Carbon Drive",
+      "Subcategory": "Accessories",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_57_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_57_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_57_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_57_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_57_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.9,
+    "reviewCount": 187,
+    "tags": [
+      "auto",
+      "accessories",
+      "carbon drive"
+    ]
+  },
+  {
+    "id": "p_58",
+    "slug": "carbon-drive-leather-seat-covers",
+    "name": "Carbon Drive Leather Seat Covers",
+    "category": "Auto",
+    "price": 120,
+    "images": [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Premium synthetic leather covers, waterproof and breathable. Universal fit.",
+    "specs": {
+      "Brand": "Torque Tech",
+      "Subcategory": "Tools",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_58_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_58_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_58_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_58_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_58_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 89,
+    "tags": [
+      "auto",
+      "tools",
+      "torque tech"
+    ]
+  },
+  {
+    "id": "p_59",
+    "slug": "lume-auto-dual-dash-cam-pro",
+    "name": "Lume Auto Dual Dash Cam Pro",
+    "category": "Auto",
+    "price": 140,
+    "images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Front and rear cameras recording in 4K with night vision, G-sensor, and GPS tracking.",
+    "specs": {
+      "Brand": "Lume Auto",
+      "Subcategory": "Care",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_59_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_59_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_59_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_59_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_59_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 114,
+    "tags": [
+      "auto",
+      "care",
+      "lume auto"
+    ]
+  },
+  {
+    "id": "p_60",
+    "slug": "drive-gear-microfiber-wash-mitt",
+    "name": "Drive Gear Microfiber Wash Mitt",
+    "category": "Auto",
+    "price": 14,
+    "compareAtPrice": 18,
+    "images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Lint-free, scratch-free plush microfiber for safe and efficient car washing.",
+    "specs": {
+      "Brand": "Drive Gear",
+      "Subcategory": "Gadgets",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_60_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_60_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_60_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_60_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_60_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.5,
+    "reviewCount": 26,
+    "tags": [
+      "auto",
+      "gadgets",
+      "drive gear"
+    ]
+  },
+  {
+    "id": "p_61",
+    "slug": "torque-tech-obd2-scanner-tool",
+    "name": "Torque Tech OBD2 Scanner Tool",
+    "category": "Auto",
+    "price": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Reads and clears engine trouble codes, retrieves vehicle info, and runs emissions tests.",
+    "specs": {
+      "Brand": "Carbon Drive",
+      "Subcategory": "Accessories",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_61_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_61_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_61_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_61_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_61_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.1,
+    "reviewCount": 25,
+    "tags": [
+      "auto",
+      "accessories",
+      "carbon drive"
+    ]
+  },
+  {
+    "id": "p_62",
+    "slug": "carbon-drive-trunk-organizer",
+    "name": "Carbon Drive Trunk Organizer",
+    "category": "Auto",
+    "price": 38,
+    "images": [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Collapsible multi-compartment organizer with securing straps and non-slip bottom.",
+    "specs": {
+      "Brand": "Torque Tech",
+      "Subcategory": "Tools",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_62_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_62_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_62_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_62_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_62_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 172,
+    "tags": [
+      "auto",
+      "tools",
+      "torque tech"
+    ]
+  },
+  {
+    "id": "p_63",
+    "slug": "lume-auto-smart-phone-mount",
+    "name": "Lume Auto Smart Phone Mount",
+    "category": "Auto",
+    "price": 24,
+    "compareAtPrice": 31,
+    "images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Air vent mount with auto-clamping magnetic induction charging.",
+    "specs": {
+      "Brand": "Lume Auto",
+      "Subcategory": "Care",
+      "Warranty": "1 Year",
+      "Material": "Premium Recycled"
+    },
+    "variants": [
+      {
+        "id": "p_63_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_63_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_63_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_63_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_63_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.7,
+    "reviewCount": 152,
+    "tags": [
+      "auto",
+      "care",
+      "lume auto"
+    ]
+  },
+  {
+    "id": "p_64",
+    "slug": "drive-gear-ceramic-wax-spray",
+    "name": "Drive Gear Ceramic Wax Spray",
+    "category": "Auto",
+    "price": 20,
+    "images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf0a3?auto=format&fit=crop&w=600&q=80"
+    ],
+    "description": "Hydrophobic coating providing high-gloss shine and long-lasting paint protection.",
+    "specs": {
+      "Brand": "Drive Gear",
+      "Subcategory": "Gadgets",
+      "Warranty": "2 Years",
+      "Material": "Eco-conscious"
+    },
+    "variants": [
+      {
+        "id": "p_64_v1",
+        "color": "Slate Grey",
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "id": "p_64_v2",
+        "color": "Chalk White",
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "id": "p_64_v3",
+        "color": "Midnight Black",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "id": "p_64_v4",
+        "color": "Slate Grey",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "id": "p_64_v5",
+        "color": "Chalk White",
+        "size": "L",
+        "stock": 12
+      }
+    ],
+    "stock": 43,
+    "rating": 4.4,
+    "reviewCount": 80,
+    "tags": [
+      "auto",
+      "gadgets",
+      "drive gear"
+    ]
+  }
+]
