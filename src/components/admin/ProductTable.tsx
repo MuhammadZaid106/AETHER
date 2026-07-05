@@ -53,7 +53,7 @@ export function ProductTable() {
   };
 
   return (
-    <div className="flex flex-col gap-6 bg-white border border-[var(--border-hairline)] rounded-[var(--radius-lg)] p-8 shadow-sm">
+    <div className="flex flex-col gap-6 bg-white border border-[var(--border-hairline)] rounded-[var(--radius-lg)] p-4 sm:p-6 md:p-8 shadow-sm">
       {/* Search Header Row */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-[var(--border-hairline)] pb-6">
         <h3 className="text-grotesk text-xl font-black uppercase tracking-tight text-[var(--ink-900)]">
@@ -73,8 +73,8 @@ export function ProductTable() {
       </div>
 
       {/* Table grid */}
-      <div className="overflow-x-auto w-full">
-        <table className="w-full text-left border-collapse">
+      <div className="overflow-x-auto w-full -mx-1 px-1">
+        <table className="w-full text-left border-collapse min-w-[540px]">
           <thead>
             <tr className="border-b border-[var(--border-hairline)] text-[10px] font-black uppercase tracking-widest text-[var(--ink-600)]">
               <th className="py-4">Item</th>

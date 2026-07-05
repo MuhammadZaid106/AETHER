@@ -7,18 +7,18 @@ import { Plus } from "lucide-react";
 
 export default function AdminProductsPage() {
   return (
-    <div className="flex flex-col gap-8">
-      <div className="flex items-end justify-between">
+    <div className="flex flex-col gap-6 sm:gap-8">
+      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
         <div>
           <span className="text-xs font-black tracking-widest text-[var(--ink-600)] uppercase">
             Catalog Management
           </span>
-          <h1 className="text-grotesk text-4xl font-black uppercase tracking-tight text-[var(--ink-900)] mt-1">
+          <h1 className="text-grotesk text-2xl sm:text-3xl md:text-4xl font-black uppercase tracking-tight text-[var(--ink-900)] mt-1">
             PRODUCTS LIST
           </h1>
         </div>
 
-        <Link href="/admin/products/new">
+        <Link href="/admin/products/new" className="self-start sm:self-auto">
           <Button variant="lime" size="sm" className="uppercase font-black tracking-widest text-xs h-10 flex items-center gap-1.5">
             <Plus className="w-4 h-4" /> Add Product
           </Button>

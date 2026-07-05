@@ -29,12 +29,12 @@ export default function NewProductPage() {
   };
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-6 sm:gap-8">
       <div>
         <span className="text-xs font-black tracking-widest text-[var(--ink-600)] uppercase">
           Creator Panel
         </span>
-        <h1 className="text-grotesk text-4xl font-black uppercase tracking-tight text-[var(--ink-900)] mt-1">
+        <h1 className="text-grotesk text-2xl sm:text-3xl md:text-4xl font-black uppercase tracking-tight text-[var(--ink-900)] mt-1">
           NEW PRODUCT FORM
         </h1>
       </div>

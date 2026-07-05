@@ -35,7 +35,7 @@ export function StatCard({
       initial={{ opacity: 0, y: 15 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.4 }}
-      className="bg-white border border-[var(--border-hairline)] rounded-[var(--radius-md)] p-6 flex flex-col justify-between h-40 shadow-sm"
+      className="bg-white border border-[var(--border-hairline)] rounded-[var(--radius-md)] p-4 sm:p-6 flex flex-col justify-between min-h-[9rem] shadow-sm"
     >
       <div className="flex justify-between items-start">
         <div className="flex items-center gap-3">

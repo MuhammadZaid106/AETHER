@@ -29,7 +29,7 @@ export function MobileTabBar() {
       badge: totalCartQty,
       isCart: true,
     },
-    { label: "Admin", href: "/admin", icon: Settings },
+    { label: "Admin", href: "/admin/dashboard", icon: Settings },
   ];
 
   return (

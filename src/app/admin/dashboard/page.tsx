@@ -15,19 +15,19 @@ export default function DashboardPage() {
   const avgOrderVal = totalOrders > 0 ? totalRevenue / totalOrders : 0;
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-6 sm:gap-8">
       {/* Title */}
       <div>
         <span className="text-xs font-black tracking-widest text-[var(--ink-600)] uppercase">
           Overview
         </span>
-        <h1 className="text-grotesk text-4xl font-black uppercase tracking-tight text-[var(--ink-900)] mt-1">
+        <h1 className="text-grotesk text-2xl sm:text-3xl md:text-4xl font-black uppercase tracking-tight text-[var(--ink-900)] mt-1">
           ANALYTICS DASHBOARD
         </h1>
       </div>
 
       {/* Stats Cards grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
         <StatCard
           icon={DollarSign}
           label="Total Revenue"

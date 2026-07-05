@@ -83,7 +83,7 @@ export function Header() {
               <MegaMenu />
             </div>
             <Link
-              href="/admin"
+              href="/admin/dashboard"
               className="text-sm font-semibold flex items-center gap-1.5 text-[var(--ink-600)] hover:text-[var(--ink-900)] transition-colors"
             >
               <Settings className="w-4 h-4" />

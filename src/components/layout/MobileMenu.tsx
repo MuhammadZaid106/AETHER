@@ -86,7 +86,7 @@ export function MobileMenu({ onClose }: MobileMenuProps) {
       {/* Footer Info */}
       <div className="border-t border-white/10 pt-6 flex flex-col gap-4">
         <Link
-          href="/admin"
+          href="/admin/dashboard"
           onClick={onClose}
           className="text-sm font-semibold flex items-center gap-1.5 text-white/70 hover:text-white transition-colors"
         >

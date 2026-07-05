@@ -58,7 +58,7 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
   };
 
   return (
-    <form onSubmit={handleSubmit(formSubmit)} className="flex flex-col gap-6 max-w-3xl">
+    <form onSubmit={handleSubmit(formSubmit)} className="flex flex-col gap-6 w-full">
       {/* Detail fields */}
       <div className="bg-white border border-[var(--border-hairline)] p-6 rounded-[var(--radius-md)] flex flex-col gap-4 shadow-sm">
         <h3 className="text-xs font-black uppercase tracking-widest text-[var(--ink-600)] border-b pb-2 mb-2">
@@ -85,7 +85,7 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
           {errors.description && <span className="text-[10px] text-red-500 font-bold">{errors.description.message}</span>}
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="flex flex-col gap-1.5">
             <label className="text-[10px] font-black uppercase tracking-widest text-[var(--ink-600)]">Category</label>
             <select
@@ -119,7 +119,7 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
           Pricing Setup
         </h3>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="flex flex-col gap-1.5">
             <label className="text-[10px] font-black uppercase tracking-widest text-[var(--ink-600)]">Sale Price ($)</label>
             <input
@@ -180,7 +180,7 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
 
         <div className="flex flex-col gap-3">
           {fields.map((field, index) => (
-            <div key={field.id} className="flex gap-4 items-end border border-[var(--border-hairline)] p-3 rounded-[var(--radius-md)] bg-[var(--bg-canvas)]">
+            <div key={field.id} className="flex flex-col sm:flex-row gap-3 sm:gap-4 sm:items-end border border-[var(--border-hairline)] p-3 rounded-[var(--radius-md)] bg-[var(--bg-canvas)]">
               <div className="flex flex-col gap-1 flex-grow">
                 <label className="text-[9px] font-bold uppercase text-[var(--ink-600)]">Color</label>
                 <input
@@ -221,7 +221,7 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
       </div>
 
       {/* Actions */}
-      <div className="flex gap-3 justify-end mt-4">
+      <div className="flex flex-col-reverse sm:flex-row gap-3 sm:justify-end mt-4">
         <Button type="button" variant="outline" onClick={onCancel} className="uppercase font-bold tracking-widest text-[10px]">
           Cancel
         </Button>
