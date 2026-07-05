@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Search, X, TrendingUp, History } from "lucide-react";
 import Fuse from "fuse.js";
-import productsData from "@/data/products.json";
+import { useAdminProductStore } from "@/lib/store/useAdminProductStore";
 import { formatPrice } from "@/lib/utils/formatPrice";
 
 interface SearchOverlayProps {
@@ -18,6 +18,8 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
   const [results, setResults] = useState<any[]>([]);
   const [recent, setRecent] = useState<string[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  const products = useAdminProductStore((state) => state.products);
 
   // Load recent searches from localStorage on mount
   useEffect(() => {
@@ -38,12 +40,18 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
   }, [onClose]);
 
   // Configure Fuse.js
-  const fuseRef = useRef(
-    new Fuse(productsData, {
-      keys: ["name", "category", "tags", "description"],
-      threshold: 0.35,
-    })
-  );
+  const fuseRef = useRef<Fuse<any> | null>(null);
+
+  useEffect(() => {
+    if (fuseRef.current) {
+      fuseRef.current.setCollection(products);
+    } else {
+      fuseRef.current = new Fuse(products, {
+        keys: ["name", "category", "tags", "description"],
+        threshold: 0.35,
+      });
+    }
+  }, [products]);
 
   const handleSearch = (val: string) => {
     setQuery(val);
@@ -51,6 +59,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
       setResults([]);
       return;
     }
+    if (!fuseRef.current) return;
     const searchRes = fuseRef.current.search(val).map((res) => res.item);
     setResults(searchRes.slice(0, 5));
   };

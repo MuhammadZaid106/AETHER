@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { ProductCard } from "../product/ProductCard";
 import { useGSAP } from "@/hooks/useGSAP";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
-import productsData from "@/data/products.json";
+import { useAdminProductStore } from "@/lib/store/useAdminProductStore";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -14,9 +14,10 @@ export function TrendingCarousel() {
   const containerRef = useRef<HTMLDivElement>(null);
   const scrollTrackRef = useRef<HTMLDivElement>(null);
   const isReduced = usePrefersReducedMotion();
+  const products = useAdminProductStore((state) => state.products);
 
   // Pick some trending products
-  const trendingProducts = productsData.slice(0, 8);
+  const trendingProducts = products.slice(0, 8);
 
   useGSAP(
     () => {

@@ -14,13 +14,7 @@ export const productSchema = z
       .string()
       .regex(/^[A-Z0-9-]{4,}$/, "Format: ABC-1234 (uppercase, numbers, hyphens only)"),
     stock: z.coerce.number().int().min(0, "Stock cannot be negative"),
-    images: z
-      .union([
-        z.array(z.instanceof(File)).max(6, "Maximum 6 images allowed"),
-        z.array(z.string()),
-        z.undefined(),
-      ])
-      .optional(),
+    images: z.array(z.string()).max(6, "Maximum 6 images allowed").optional(),
     variants: z
       .array(
         z.object({

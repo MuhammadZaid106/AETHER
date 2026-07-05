@@ -4,11 +4,12 @@ import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { formatPrice } from "@/lib/utils/formatPrice";
-import productsData from "@/data/products.json";
+import { useAdminProductStore } from "@/lib/store/useAdminProductStore";
 
 export function FlashSale() {
   const [timeLeft, setTimeLeft] = useState({ hours: 4, minutes: 23, seconds: 12 });
-  const saleProducts = productsData.filter((p) => p.compareAtPrice !== undefined).slice(0, 10);
+  const products = useAdminProductStore((state) => state.products);
+  const saleProducts = products.filter((p) => p.compareAtPrice !== undefined).slice(0, 10);
 
   // Timer Tick
   useEffect(() => {

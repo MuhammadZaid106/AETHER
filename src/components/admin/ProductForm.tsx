@@ -1,11 +1,11 @@
 "use client";
 
-import { useForm, useFieldArray } from "react-hook-form";
+import { useForm, useFieldArray, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { productSchema, ProductFormData } from "@/lib/validations/product.schema";
 import { Button } from "@/components/ui/Button";
-import { Plus, Trash2, Upload, AlertCircle } from "lucide-react";
-import { useState } from "react";
+import { Plus, Trash2 } from "lucide-react";
+import { CloudinaryUploader } from "./CloudinaryUploader";
 
 interface ProductFormProps {
   initialData?: any;
@@ -14,9 +14,6 @@ interface ProductFormProps {
 }
 
 export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProps) {
-  const [dragActive, setDragActive] = useState(false);
-  const [imageUrls, setImageUrls] = useState<string[]>(initialData?.images || []);
-
   const {
     register,
     control,
@@ -35,6 +32,7 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
       sku: initialData?.sku || "SKU-1234",
       stock: initialData?.stock || 0,
       variants: initialData?.variants || [],
+      images: initialData?.images || [],
     },
   });
 
@@ -44,48 +42,10 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
     name: "variants",
   });
 
-  const handleDrag = (e: React.DragEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (e.type === "dragenter" || e.type === "dragover") {
-      setDragActive(true);
-    } else if (e.type === "dragleave") {
-      setDragActive(false);
-    }
-  };
-
-  const handleDrop = (e: React.DragEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDragActive(false);
-
-    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      const filesArray = Array.from(e.dataTransfer.files);
-      setValue("images", filesArray as any);
-
-      // Create quick local preview URLs
-      const urls = filesArray.map((file) => URL.createObjectURL(file));
-      setImageUrls(urls);
-    }
-  };
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      const filesArray = Array.from(e.target.files);
-      setValue("images", filesArray as any);
-
-      const urls = filesArray.map((file) => URL.createObjectURL(file));
-      setImageUrls(urls);
-    }
-  };
-
   const formSubmit = (data: ProductFormData) => {
-    // Use uploaded file previews, fall back to existing images from initialData, then a placeholder
     const resolvedImages =
-      imageUrls.length > 0
-        ? imageUrls
-        : initialData?.images?.length > 0
-        ? initialData.images
+      data.images && data.images.length > 0
+        ? data.images
         : ["https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80"];
 
     const cleanProd = {
@@ -190,48 +150,17 @@ export function ProductForm({ initialData, onSubmit, onCancel }: ProductFormProp
           Upload Images
         </h3>
 
-        <div
-          onDragEnter={handleDrag}
-          onDragOver={handleDrag}
-          onDragLeave={handleDrag}
-          onDrop={handleDrop}
-          className={`border-2 border-dashed rounded-[var(--radius-md)] p-8 text-center transition-colors ${
-            dragActive ? "border-[var(--accent-lime)] bg-[var(--bg-canvas-alt)]" : "border-[var(--border-hairline)] bg-[var(--bg-canvas)]"
-          }`}
-        >
-          <Upload className="w-8 h-8 text-[var(--ink-600)] mx-auto mb-3" />
-          <span className="text-xs font-bold text-[var(--ink-900)] block">
-            Drag files here or click to upload
-          </span>
-          <span className="text-[10px] text-[var(--ink-600)] mt-1.5 block">
-            PNG, JPG, or WEBP under 5MB (Max 6)
-          </span>
-          <input
-            type="file"
-            multiple
-            accept="image/png, image/jpeg, image/webp"
-            onChange={handleFileChange}
-            className="hidden"
-            id="product-file-upload"
-          />
-          <label
-            htmlFor="product-file-upload"
-            className="inline-block mt-4 text-[10px] font-black uppercase bg-[var(--ink-900)] text-white px-4 py-2.5 rounded-[var(--radius-md)] cursor-pointer hover:bg-[var(--ink-600)] transition-colors"
-          >
-            Select Files
-          </label>
-        </div>
-
-        {/* Thumbnail previews */}
-        {imageUrls.length > 0 && (
-          <div className="flex gap-3 flex-wrap mt-2">
-            {imageUrls.map((url, index) => (
-              <div key={index} className="w-16 h-16 relative border border-[var(--border-hairline)] rounded-[var(--radius-md)] overflow-hidden">
-                <img src={url} alt={`Preview ${index}`} className="object-cover w-full h-full" />
-              </div>
-            ))}
-          </div>
-        )}
+        <Controller
+          control={control}
+          name="images"
+          render={({ field }) => (
+            <CloudinaryUploader
+              value={field.value || []}
+              onChange={(urls) => field.onChange(urls)}
+            />
+          )}
+        />
+        {errors.images && <span className="text-[10px] text-red-500 font-bold">{errors.images.message}</span>}
       </div>
 
       {/* Variants array builder */}
