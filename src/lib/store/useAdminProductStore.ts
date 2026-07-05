@@ -39,11 +39,13 @@ export const useAdminProductStore = create<AdminProductStore>()(
       products: [],
       isInitialized: false,
       initialize: () => {
-        if (!get().isInitialized || get().products.length === 0) {
+        if (get().products.length === 0) {
           set({
             products: seedProducts as Product[],
             isInitialized: true,
           });
+        } else {
+          set({ isInitialized: true });
         }
       },
       addProduct: (newProd) => {

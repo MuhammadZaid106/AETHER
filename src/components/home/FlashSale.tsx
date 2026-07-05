@@ -8,8 +8,13 @@ import { useAdminProductStore } from "@/lib/store/useAdminProductStore";
 
 export function FlashSale() {
   const [timeLeft, setTimeLeft] = useState({ hours: 4, minutes: 23, seconds: 12 });
+  const [mounted, setMounted] = useState(false);
   const products = useAdminProductStore((state) => state.products);
   const saleProducts = products.filter((p) => p.compareAtPrice !== undefined).slice(0, 10);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Timer Tick
   useEffect(() => {
@@ -30,6 +35,14 @@ export function FlashSale() {
 
     return () => clearInterval(interval);
   }, []);
+
+  if (!mounted) {
+    return (
+      <section className="py-20 bg-ink-900 text-white overflow-hidden border-b border-black h-[400px] flex items-center justify-center">
+        <span className="text-xs font-bold tracking-widest text-ink-300 uppercase animate-pulse">Loading Flash Event...</span>
+      </section>
+    );
+  }
 
   return (
     <section className="py-20 bg-ink-900 text-white overflow-hidden border-b border-black">

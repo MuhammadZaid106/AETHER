@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { ProductCard } from "../product/ProductCard";
 import { useGSAP } from "@/hooks/useGSAP";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
@@ -14,14 +14,19 @@ export function TrendingCarousel() {
   const containerRef = useRef<HTMLDivElement>(null);
   const scrollTrackRef = useRef<HTMLDivElement>(null);
   const isReduced = usePrefersReducedMotion();
+  const [mounted, setMounted] = useState(false);
   const products = useAdminProductStore((state) => state.products);
 
   // Pick some trending products
   const trendingProducts = products.slice(0, 8);
 
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   useGSAP(
     () => {
-      if (isReduced || !containerRef.current || !scrollTrackRef.current) return;
+      if (!mounted || isReduced || !containerRef.current || !scrollTrackRef.current) return;
 
       const track = scrollTrackRef.current;
       const scrollWidth = track.scrollWidth;
@@ -47,6 +52,14 @@ export function TrendingCarousel() {
     [isReduced],
     containerRef
   );
+
+  if (!mounted) {
+    return (
+      <div className="relative bg-white border-b border-[var(--border-hairline)] py-24 min-h-[450px] flex items-center justify-center">
+        <span className="text-xs font-bold tracking-widest text-[var(--ink-600)] uppercase animate-pulse">Loading Spotlight...</span>
+      </div>
+    );
+  }
 
   return (
     <div ref={containerRef} className="relative bg-white border-b border-[var(--border-hairline)] overflow-hidden">

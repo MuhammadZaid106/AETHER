@@ -14,7 +14,15 @@ import { Badge } from "@/components/ui/Badge";
 import { toast } from "sonner";
 import { formatPrice } from "@/lib/utils/formatPrice";
 import { productImageLayoutId } from "@/lib/constants/layoutIds";
-import { ShoppingBag, Heart, Star, Sparkles, ArrowRight, ShieldCheck, RefreshCw } from "lucide-react";
+import {
+  ShoppingBag,
+  Heart,
+  Star,
+  Sparkles,
+  ArrowRight,
+  ShieldCheck,
+  RefreshCw,
+} from "lucide-react";
 import Link from "next/link";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
 
@@ -28,6 +36,7 @@ export default function ProductPage({ params }: ProductPageProps) {
   const addCartItem = useCartStore((state) => state.addItem);
   const addRecentlyViewed = useRecentlyViewedStore((state) => state.addProduct);
   const isReduced = usePrefersReducedMotion();
+  const [mounted, setMounted] = useState(false);
 
   // Find product by slug
   const product = products.find((p) => p.slug === slug);
@@ -36,6 +45,10 @@ export default function ProductPage({ params }: ProductPageProps) {
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
   const [qty, setQty] = useState(1);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Seed default variant values once product is loaded
   useEffect(() => {
@@ -48,12 +61,25 @@ export default function ProductPage({ params }: ProductPageProps) {
     }
   }, [product, addRecentlyViewed]);
 
+  if (!mounted) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-[var(--bg-canvas)]">
+        <div className="text-xs font-bold tracking-widest text-[var(--ink-600)] uppercase animate-pulse">
+          Loading Product Details...
+        </div>
+      </div>
+    );
+  }
+
   if (!product) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[var(--bg-canvas)]">
         <div className="text-center">
           <h2 className="text-xl font-bold">Product not found</h2>
-          <Link href="/shop" className="text-xs font-black uppercase text-[var(--accent-lime)] mt-4 inline-block underline">
+          <Link
+            href="/shop"
+            className="text-xs font-black uppercase text-[var(--accent-lime)] mt-4 inline-block underline"
+          >
             Back to Catalog
           </Link>
         </div>
@@ -63,7 +89,7 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   // Active Variant lookup
   const activeVariant = product.variants?.find(
-    (v) => v.color === selectedColor && v.size === selectedSize
+    (v) => v.color === selectedColor && v.size === selectedSize,
   );
 
   const handleAddToCart = () => {
@@ -81,7 +107,9 @@ export default function ProductPage({ params }: ProductPageProps) {
   };
 
   // Filter out matching categories for Related Carousel
-  const related = products.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+  const related = products
+    .filter((p) => p.category === product.category && p.id !== product.id)
+    .slice(0, 4);
 
   return (
     <div className="min-h-screen bg-[var(--bg-canvas)] py-16">
@@ -101,11 +129,17 @@ export default function ProductPage({ params }: ProductPageProps) {
             {/* Title / Badge Block */}
             <div className="flex flex-col gap-2">
               <div className="flex gap-2 items-center">
-                <Badge variant="outline" className="text-[10px] uppercase font-extrabold tracking-wider">
+                <Badge
+                  variant="outline"
+                  className="text-[10px] uppercase font-extrabold tracking-wider"
+                >
                   {product.category}
                 </Badge>
                 {product.compareAtPrice && (
-                  <Badge variant="coral" className="text-[10px] uppercase font-black tracking-wider">
+                  <Badge
+                    variant="coral"
+                    className="text-[10px] uppercase font-black tracking-wider"
+                  >
                     PROMO RATE
                   </Badge>
                 )}
@@ -118,8 +152,12 @@ export default function ProductPage({ params }: ProductPageProps) {
               {/* Star Rating Header */}
               <div className="flex items-center gap-1.5 mt-1">
                 <Star className="w-4 h-4 fill-[var(--accent-lime)] stroke-[var(--accent-lime)]" />
-                <span className="text-sm font-bold text-[var(--ink-900)]">{product.rating}</span>
-                <span className="text-xs text-[var(--ink-600)]">({product.reviewCount} customer reviews)</span>
+                <span className="text-sm font-bold text-[var(--ink-900)]">
+                  {product.rating}
+                </span>
+                <span className="text-xs text-[var(--ink-600)]">
+                  ({product.reviewCount} customer reviews)
+                </span>
               </div>
             </div>
 
@@ -153,14 +191,22 @@ export default function ProductPage({ params }: ProductPageProps) {
 
             {/* Add to Cart Stepper panel */}
             <div className="flex items-center gap-4 pt-4 border-t border-[var(--border-hairline)] mt-4">
-              <QuantityStepper qty={qty} onChange={setQty} maxStock={activeVariant?.stock || product.stock} />
-              
+              <QuantityStepper
+                qty={qty}
+                onChange={setQty}
+                maxStock={activeVariant?.stock || product.stock}
+              />
+
               <Button
                 variant="lime"
                 size="md"
                 className="flex-grow uppercase font-black tracking-widest text-xs h-11"
                 onClick={handleAddToCart}
-                disabled={activeVariant ? activeVariant.stock === 0 : product.stock === 0}
+                disabled={
+                  activeVariant
+                    ? activeVariant.stock === 0
+                    : product.stock === 0
+                }
               >
                 <ShoppingBag className="w-4.5 h-4.5" /> Add to Cart
               </Button>
@@ -187,7 +233,10 @@ export default function ProductPage({ params }: ProductPageProps) {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {Object.entries(product.specs || {}).map(([key, val]) => (
-              <div key={key} className="flex justify-between border-b border-[var(--border-hairline)] pb-2 text-sm">
+              <div
+                key={key}
+                className="flex justify-between border-b border-[var(--border-hairline)] pb-2 text-sm"
+              >
                 <span className="font-bold text-[var(--ink-600)]">{key}</span>
                 <span className="font-black text-[var(--ink-900)]">{val}</span>
               </div>
@@ -203,15 +252,19 @@ export default function ProductPage({ params }: ProductPageProps) {
               id: `r_1_${product.id}`,
               userName: "Avery K.",
               rating: 5,
-              comment: "Absolutely exceeded my expectations. Built quality is stellar!",
+              comment:
+                "Absolutely exceeded my expectations. Built quality is stellar!",
               date: new Date().toISOString(),
             },
             {
               id: `r_2_${product.id}`,
               userName: "Marcus L.",
               rating: 4,
-              comment: "Very solid. Only feedback is shipping took a day longer than expected.",
-              date: new Date(Date.now() - 1000 * 60 * 60 * 24 * 3).toISOString(),
+              comment:
+                "Very solid. Only feedback is shipping took a day longer than expected.",
+              date: new Date(
+                Date.now() - 1000 * 60 * 60 * 24 * 3,
+              ).toISOString(),
             },
           ]}
           rating={product.rating}
@@ -225,7 +278,10 @@ export default function ProductPage({ params }: ProductPageProps) {
               <h3 className="text-grotesk text-2xl font-black uppercase tracking-tight text-[var(--ink-900)]">
                 RELATED CURATIONS
               </h3>
-              <Link href="/shop" className="text-xs font-black uppercase text-[var(--ink-600)] hover:text-black flex items-center gap-1">
+              <Link
+                href="/shop"
+                className="text-xs font-black uppercase text-[var(--ink-600)] hover:text-black flex items-center gap-1"
+              >
                 View All <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
