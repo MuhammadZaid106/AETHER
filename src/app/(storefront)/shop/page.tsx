@@ -1,18 +1,24 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { useAdminProductStore } from "@/lib/store/useAdminProductStore";
 import { ProductCard } from "@/components/product/ProductCard";
 import { ProductCardSkeleton } from "@/components/product/ProductCardSkeleton";
 import { FilterSidebar } from "@/components/filters/FilterSidebar";
 import { FilterChips } from "@/components/filters/FilterChips";
 import { Button } from "@/components/ui/Button";
-import { Grid, List, SlidersHorizontal } from "lucide-react";
+import { Pagination } from "@/components/ui/Pagination";
+import { SlidersHorizontal } from "lucide-react";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
+import { useScrollTo } from "@/components/providers/SmoothScrollProvider";
+
+const PAGE_SIZE = 12;
 
 export default function ShopPage() {
   const allProducts = useAdminProductStore((state) => state.products);
   const isReduced = usePrefersReducedMotion();
+  const { scrollTo } = useScrollTo();
 
   // Loading state simulation
   const [loading, setLoading] = useState(true);
@@ -27,6 +33,8 @@ export default function ShopPage() {
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1500]);
   const [sortBy, setSortBy] = useState<string>("featured");
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const gridRef = useRef<HTMLDivElement>(null);
 
   // Filter Logic
   const filteredProducts = allProducts.filter((product) => {
@@ -55,6 +63,33 @@ export default function ShopPage() {
     if (sortBy === "rating") return b.rating - a.rating;
     return 0; // featured
   });
+
+  const totalPages = Math.max(1, Math.ceil(sortedProducts.length / PAGE_SIZE));
+  const paginatedProducts = sortedProducts.slice(
+    (currentPage - 1) * PAGE_SIZE,
+    currentPage * PAGE_SIZE
+  );
+  const startItem =
+    sortedProducts.length === 0 ? 0 : (currentPage - 1) * PAGE_SIZE + 1;
+  const endItem = Math.min(currentPage * PAGE_SIZE, sortedProducts.length);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedCategories, selectedSubcategories, priceRange, sortBy]);
+
+  useEffect(() => {
+    if (currentPage > totalPages) {
+      setCurrentPage(totalPages);
+    }
+  }, [currentPage, totalPages]);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    scrollTo(gridRef.current, {
+      smooth: !isReduced,
+      offset: -120,
+    });
+  };
 
   // Handlers
   const handleCategoryToggle = (cat: string) => {
@@ -99,7 +134,9 @@ export default function ShopPage() {
               <SlidersHorizontal className="w-4 h-4" /> Filters
             </button>
             <span className="text-xs font-bold text-[var(--ink-600)]">
-              Showing {sortedProducts.length} results
+              {sortedProducts.length === 0
+                ? "No results"
+                : `Showing ${startItem}–${endItem} of ${sortedProducts.length}`}
             </span>
           </div>
 
@@ -184,26 +221,58 @@ export default function ShopPage() {
             />
 
             {/* Grid */}
-            {loading ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {[...Array(6)].map((_, i) => (
-                  <ProductCardSkeleton key={i} />
-                ))}
-              </div>
-            ) : sortedProducts.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {sortedProducts.map((product) => (
-                  <ProductCard key={product.id} product={product} />
-                ))}
-              </div>
-            ) : (
-              <div className="text-center py-20 bg-white border border-[var(--border-hairline)] rounded-[var(--radius-md)]">
-                <p className="text-sm text-[var(--ink-600)]">No products match your parameters.</p>
-                <Button variant="secondary" onClick={handleResetFilters} className="mt-4">
-                  Reset Filters
-                </Button>
-              </div>
-            )}
+            <div ref={gridRef}>
+              {loading ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {[...Array(PAGE_SIZE)].map((_, i) => (
+                    <ProductCardSkeleton key={i} />
+                  ))}
+                </div>
+              ) : sortedProducts.length > 0 ? (
+                <>
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={currentPage}
+                      initial={isReduced ? {} : { opacity: 0, y: 16 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={isReduced ? {} : { opacity: 0, y: -16 }}
+                      transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+                      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+                    >
+                      {paginatedProducts.map((product, index) => (
+                        <motion.div
+                          key={product.id}
+                          initial={isReduced ? {} : { opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{
+                            duration: 0.35,
+                            delay: isReduced ? 0 : index * 0.04,
+                            ease: [0.25, 0.1, 0.25, 1],
+                          }}
+                        >
+                          <ProductCard product={product} />
+                        </motion.div>
+                      ))}
+                    </motion.div>
+                  </AnimatePresence>
+
+                  <Pagination
+                    currentPage={currentPage}
+                    totalPages={totalPages}
+                    onPageChange={handlePageChange}
+                  />
+                </>
+              ) : (
+                <div className="text-center py-20 bg-white border border-[var(--border-hairline)] rounded-[var(--radius-md)]">
+                  <p className="text-sm text-[var(--ink-600)]">
+                    No products match your parameters.
+                  </p>
+                  <Button variant="secondary" onClick={handleResetFilters} className="mt-4">
+                    Reset Filters
+                  </Button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>

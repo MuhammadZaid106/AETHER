@@ -1,6 +1,7 @@
 "use client";
 
 import { SmoothScrollProvider } from "./SmoothScrollProvider";
+import { ScrollToTop } from "./ScrollToTop";
 import { Toaster } from "sonner";
 import { CustomCursor } from "../interactive/CustomCursor";
 import { useEffect } from "react";
@@ -29,6 +30,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
 
   return (
     <SmoothScrollProvider>
+      <ScrollToTop />
       <CustomCursor />
       {children}
       <Toaster

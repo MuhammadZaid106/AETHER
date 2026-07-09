@@ -4,10 +4,12 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowUp } from "lucide-react";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
+import { useScrollTo } from "@/components/providers/SmoothScrollProvider";
 
 export function Footer() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const isReduced = usePrefersReducedMotion();
+  const { scrollToTop } = useScrollTo();
 
   useEffect(() => {
     if (isReduced) return;
@@ -22,10 +24,6 @@ export function Footer() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isReduced]);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   const strokeDashoffset = 80 - 80 * scrollProgress;
 
@@ -141,7 +139,7 @@ export function Footer() {
 
           {/* Back to top button */}
           <button
-            onClick={scrollToTop}
+            onClick={() => scrollToTop({ smooth: !isReduced })}
             className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center relative cursor-pointer group hover:bg-white/10 transition-colors"
             aria-label="Back to Top"
           >

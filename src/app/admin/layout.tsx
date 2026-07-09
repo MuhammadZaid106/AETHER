@@ -158,7 +158,10 @@ export default function AdminLayout({
       </AnimatePresence>
 
       {/* ── Main Content ── */}
-      <main className="flex-grow p-4 sm:p-6 md:p-10 overflow-y-auto mt-14 md:mt-0">
+      <main
+        data-admin-main
+        className="flex-grow p-4 sm:p-6 md:p-10 overflow-y-auto mt-14 md:mt-0"
+      >
         {children}
       </main>
     </div>
